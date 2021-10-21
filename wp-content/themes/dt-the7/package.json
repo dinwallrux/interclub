@@ -1,0 +1,25 @@
+{
+  "name": "dt-the7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.mix.js",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.1",
+    "postcss-nested": "^5.0.6",
+    "tailwindcss": "^2.2.17"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "laravel-mix": "^6.0.34",
+    "sass": "^1.43.2",
+    "sass-loader": "^12.1.0"
+  },
+  "scripts": {
+    "dev": "npm run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

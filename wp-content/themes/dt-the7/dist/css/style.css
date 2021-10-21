@@ -1,0 +1,29 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap);
+@media only screen and (max-width: 480px) {
+  #jumbotron h1 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+  #jumbotron .object-line {
+    width: 590px;
+    max-width: none;
+  }
+  #jumbotron .object-building-right,
+#jumbotron .object-leaf-left {
+    display: none;
+  }
+  #jumbotron .object-building-left {
+    position: absolute;
+    left: auto;
+    right: 0px;
+    bottom: 50px;
+  }
+  #jumbotron .object-building-left img {
+    position: relative;
+    right: 70px;
+  }
+
+  .portfolio-page .title-in-breadcrumb h2 {
+    font-size: 22px !important;
+  }
+}

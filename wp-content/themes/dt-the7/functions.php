@@ -25,3 +25,5 @@ if ( ! isset( $content_width ) ) {
  * @since 1.0.0
  */
 require trailingslashit( get_template_directory() ) . 'inc/init.php';
+
+require_once( trailingslashit( get_template_directory() ) . 'resources/custom-function.php' );
